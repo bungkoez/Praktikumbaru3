@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Formulir Unit Kegiatan Mahasiswa</title>
+</head>
+<body>
+
+
+<div class="container">
+    <form action="form.php" method="post">
+    <h2>Formulir Unit Kegiatan Mahasiswa</h2>
+    <form>
+        <label for="nama_lengkap">Nama Lengkap:</label>
+        <input type="text" id="nama_lengkap" name="nama_lengkap" required>
+
+        <label for="email">Alamat Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="nomor_telepon">Nomor Telepon:</label>
+        <input type="tel" id="nomor_telepon" name="nomor_telepon" required>
+
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+
+        <label for="alamat_rumah">Alamat Rumah:</label>
+        <input type="text" id="alamat_rumah" name="alamat_rumah" required>
+
+        <label for="kota">Kota:</label>
+        <input type="text" id="kota" name="kota" required>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="">Jenis Kelamin </option>
+            <option value="laki-laki">Laki-Laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
+
+        <label for="pilihan_ukm">Pilihan Unit Kegiatan Mahasiswa:</label>
+        <select id="pilihan_ukm" name="pilihan_ukm" required>
+            <option value="">Pilihan </option>
+            <opion value="Sepak Bola">Sepak Bola</option>
+            <option value="Cakrawala">Cakrawala</option>
+            <option value="Badminton">Badminton</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Voli">Voli</option>
+            <option value="Futsal">Futsal</option>
+            <option value="Taekwondo">Taekwondo</option>
+            <option value="Pencak Silat">Pencak Silat</option>
+            <option value="English Club">English Club</option>
+            <option value="Tari Tradisional">Tari Tradisional</option>
+            <option value="Dance">Dance</option>
+            <option value="paduan Suara">Paduan suara</option>
+            <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
+        </select>
+
+
+
+        <label for="alasan_memilih">Alasan Memilih:</label>
+        <input type="text" id="alasan_memilih" name="alasan_memilih" required>
+
+
+
+
+        <button type="submit">Daftar</button>
+    </form>
+</div>
+
+</body>
+</html>
